@@ -2,7 +2,8 @@
 
 ## par
 
-Single-file C libraries under the MIT license, mostly graphics related.
+Single-file C libraries under the MIT license, mostly graphics related,
+by [Philip Allan Rideout](https://github.com/prideout).
 Documentation can be found at the top of each header file, but some libraries have an accompanying blog post.
 The most useful ones are listed in the following table.
 
@@ -15,6 +16,23 @@ library    | description  | link
 **par_shapes.h** | generate parametric surfaces and other simple shapes | [blog post](https://prideout.net/shapes)
 
 There are more libraries too but they're probably less useful; scroll to the bottom of this README.
+
+## installation
+
+Run:
+```bash
+$ npm i prideout.c
+```
+
+And then include the header files as follows:
+```c
+#include "node_modules/prideout.c/par_camera_control.h"
+#include "node_modules/prideout.c/par_octasphere.h"
+#include "node_modules/prideout.c/par_streamlines.h"
+#include "node_modules/prideout.c/par_string_blocks.h"
+#include "node_modules/prideout.c/par_shapes.h"
+...
+```
 
 ## tests
 
@@ -66,3 +84,9 @@ library    | description  | link
 **par_sprune.h** | efficient broad-phase collision detection in 2D | [web demo](https://prideout.net/d3cpp/)
 **par_msquares.h** | unmaintained marching squares library (do not use) | [blog post](https://prideout.net/marching-squares)
 
+<br>
+<br>
+
+
+[![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/prideout.c)
