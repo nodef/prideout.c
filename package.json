@@ -1,0 +1,22 @@
+{
+  "name": "prideout.c",
+  "version": "1.2025.9",
+  "description": "single-file C libraries from Philip Allan Rideout; Philip Rideout (2015).",
+  "keywords": [
+    "c",
+    "library",
+    "single-file",
+    "header-only",
+    "prideout"
+  ],
+  "homepage": "https://github.com/nodef/prideout.c#readme",
+  "bugs": {
+    "url": "https://github.com/nodef/prideout.c/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/prideout.c.git"
+  },
+  "license": "MIT",
+  "main": "prideout.h"
+}
